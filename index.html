@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Channel</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles/sass/styles.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <img class="logo-container" src="./images/logo.svg" alt="Podcasts logo">
+        <input type="checkbox" id="chk-nav-bar">
+        <ul class="menu-options">
+            <li><a class="menu-options-links" href="#Episodios">Episodios</a></li>
+            <li><a class="menu-options-links" href="#Nosotros">Nosotros</a></li>
+            <li><a class="menu-options-links" href="#Entrevistas">Entrevistas</a></li>
+            <li><a class="menu-options-links" href="#Topicos">Topicos</a></li>
+        </ul>
+        <label for="chk-nav-bar" id="burger-close" class="burger-close"><span>&#x2716;</span></label>
+        <label for="chk-nav-bar" id="burger-open"><span class="hamburger">☰</span></label>
+    </nav>
+    <section class="hello">
+        <h1>Hello <del>world</del><br> pale blue dot</h1>
+        <p></p>
+        <button>CONOCÉ MÁS</button>
+    </section>
+    <section class="episodes">
+        <svg class="episode-backgound-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="white" points="0,0 100,0 0,95"/>
+          </svg>
+          <svg class="episode-backgound-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="white" points="0,100 100,0 100,100"/>
+          </svg>
+        <h2>Episodios</h2>
+        <div class="iframes-div">
+            <iframe class="iframes" src="https://open.spotify.com/embed-podcast/episode/6eCHJ8yOYtksW8OT93Dbdu"></iframe>
+            <iframe class="iframes" src="https://open.spotify.com/embed-podcast/episode/2Hn8oHQ3EgVTtg8ysqfZco"></iframe>
+            <iframe class="iframes" src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"></iframe>
+            <iframe class="iframes" src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"></iframe>   
+        </div>
+    </section>
+    <section class="phone">
+        <div class="phone-image">
+            <img src="./images/phone.png" alt="phone">
+        </div>
+        <div class="phone-text">
+            <h2>De dónde vinimos</h2>  
+            <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the  Universe, are challenged by this point of pale light.</p><br>    
+            <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>  
+        </div>
+    </section>
+    <section class="guest">
+        <h2>Invitadas/os Estelares</h2>
+        <div class="invites">
+            <img src="./images/grace-hopper.png" alt="Grace Hopper">    
+            <img src="./images/Katie-Bouman.png" alt="Katie Bouman">    
+            <img src="./images/Margaret_Hamilton.png" alt="Margaret Hamilton">    
+            <img src="./images/AnE.R.A.Univac1103ComputerInThe1950s.png" alt="Computer in the 1950">    
+            <img src="./images/ComputerOperatorsWithAnEniacTheWorldsFirstProgrammableGeneralPurposeComputer.png"    alt="Computers operators">    
+            <img src="./images/susan-kare.png" alt="Susan Kare">
+    </div>    
+    </section>
+    <section class="figures">
+        <h2>Algunos de nuestros temas</h2>
+        <div class="figures-img">
+            <figure>
+                <img src="./images/icon1.svg" alt="remote work">
+                <figcaption>Trabajo remoto</figcaption>
+            </figure>
+            <figure>
+                <img src="./images/icon2.svg" alt="rethinking programming">
+                <figcaption>Repensando la programación</figcaption>
+            </figure>
+            <figure>
+                <img src="./images/icon3.svg" alt="code bases">
+                <figcaption>Bases del código</figcaption>
+            </figure>
+            <figure>
+                <img src="./images/icon4.svg" alt="informatic security">
+                <figcaption>Seguridad informática</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section class="last-news">
+        <svg class="last-news-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="white" points="0,0 100,0 0,70"/>
+        </svg>
+        <h2>¿Querés las últimas novedades?</h2>
+        <button>ESCUCHÁ LOS EPISODIOS</button>
+    </section>
+    <footer>
+        <p>© 2019— Hello blue pale dot</p>
+        <div class="footer-fab">
+            <a href="https://www.spotify.com/ar/" target="_blank"><i class="fab fa-spotify"></i> </a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i> </a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i> </a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i> </a>
+            <a href="https://www.telegram.com/" target="_blank"><i class="fab fa-telegram"></i> </a>
+        </div>
+    </footer>   
+    <script src="https://kit.fontawesome.com/3f44f5bd88.js" crossorigin="anonymous"></script>
+</body>
+</html>

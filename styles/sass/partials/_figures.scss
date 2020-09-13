@@ -1,0 +1,31 @@
+.figures {
+    margin: 0 auto;
+    h2 {
+        padding-left: 5%;
+        padding-top: 48px;
+}
+
+
+.figures-img{
+    figure:first-child {
+        padding-top: 36px;
+    }
+    figure {
+        display: flex;
+        flex-direction: column;
+        img {
+            margin: 0 auto;
+    }
+        figcaption {
+            font-family: 'IBM Plex Sans SemiBold', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 36px;
+            color: $color-primary;
+            text-align: center;
+            padding-top: 29px;
+            width: 99%;
+    }
+}
+}
+}

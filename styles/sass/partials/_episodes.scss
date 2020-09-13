@@ -1,0 +1,39 @@
+.episodes {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(60deg, #0000FF 0%, #0000A3 100%);
+    iframe {
+        padding-left: 9px;
+        padding-right: 9px;
+        margin-bottom: 11px;
+        width: 100%;
+        height: 232px;
+        border: none;
+    }
+    .episode-backgound-top{
+        top: 0;
+        width: 100%;
+        height: 10vw;
+        position: absolute;
+    }
+    .episode-backgound-bottom {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 10vw;
+        }
+    .iframes:last-child{
+        margin-bottom: 143.5px;
+    }
+    h2 {
+    font-family: 'IBM Plex Sans';
+    font-size: 36px;
+    color: #fff;
+    line-height: 42px;
+    padding-top: 64px;
+    padding-left: 5%;
+    padding-bottom: 21px;
+}
+}

@@ -1,0 +1,283 @@
+@media only screen and (min-width: 570px) {
+.guest {     
+    .invites{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+        img{
+            height: 364.5px;
+            width: 100%;
+        }
+}
+
+iframe {
+    max-width: 650px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 11px 0 auto;
+}
+
+.phone {
+    height: 700px;
+}
+
+.last-news {
+
+     height: 25%;
+    button {
+         width: 320px;
+        align-self: center;
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+            
+            .footer-fab{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            letter-spacing: 36px;
+            }
+        }
+}
+
+/* Comienza Media 768px */
+
+@media only screen and (min-width: 768px) {
+    #burger-close,
+    #burger-open {
+      display: none;
+    }
+    
+.nav-bar #chk-nav-bar:checked ~ .menu-options,
+.nav-bar #chk-nav-bar:checked ~ .burger-close span {
+            display: none;
+            }
+
+/* Comienza Seccion Nav-Bar */
+
+.nav-bar {
+    margin-left: 6.9%;
+
+   .menu-options {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: auto;
+    top: 0;
+    background-color: #fff;
+    margin-right: 6.9%;
+  }
+
+.menu-options li a {
+    color: $color-primary;
+  }
+  
+.menu-options li{
+    margin-top: 26px;
+    margin-left: 48px;
+}
+
+.menu-options li a:hover {
+    color: $color-button;
+    text-decoration: line-through;
+}
+.menu-options li a:active {
+    text-decoration: line-through;
+    color: rgba(6,10,36,0.56);
+}
+
+}
+
+/* Comienza sección "Hello" */
+
+.hello{
+
+    h1{
+    margin-left: 13.9%;
+    margin-top: 3.1%;
+}
+
+    h1::after {
+    content: ".";
+    color: blue;
+    font-size: 64px;
+}
+    br{
+    display: none;
+}
+
+    p{
+    margin-left: 13.9%;
+    width: 43.6%;
+}
+    p::before{
+    content: "El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.";
+}
+
+    p::after{
+    content: "";
+}
+
+    button {
+    margin-left: 18.9%;
+    width: 15.7%;
+}
+}
+
+/* Comienza Sección Episodes */
+
+.episodes {
+    width: 100%;
+    h2 {
+        display: block;
+        margin-top: 4.9%;
+        margin-left: 13.9%;
+    }
+
+    .iframes-div{
+        margin-left: 100px;
+        margin-right: 100px ;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        column-gap: 5%;
+        
+    }
+}
+
+/*Comienza la Sección Phone*/
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    height: 505px;
+    // .phone-image{
+
+    // }
+    .phone-text {
+        position: static;
+        width: 32.2%;
+        margin-left: 4.3%;
+        h2 {
+            padding-bottom: 28px;
+        }    
+    }
+}
+
+/*Comienza la Sección Guest*/
+
+.guest {
+    h2{
+        margin-left: 13.9%;
+        padding-left: 0%;
+        padding-bottom: 36px;
+    }
+    .invites{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+        img{
+            width: 100%;
+        }
+}
+
+/* Comienza la Sección Last-News */
+
+.last-news {
+
+    button {
+        width: 320px;
+        align-self: center;
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+
+        .footer-fab{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        letter-spacing: 36px;
+        }
+    }
+}
+
+/* Comienza Media Query 1024px */
+
+@media only screen and (min-width: 1024px) {
+
+.figures {
+    h2 {
+        padding-left: 13.9%;
+    }
+    .figures-img {
+        padding-top: 37px;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        margin: 0 auto;
+        
+    figure:first-child {
+            padding-top: 0px;
+        }
+
+        figure{
+    margin-top: 2.5%;
+    }
+
+    figcaption {
+        text-align: justify;
+        
+    }
+}
+}
+
+.episodes iframe {
+    margin-bottom: 72px;
+}
+
+.hello{
+        h1 {
+            font-size: 58px;
+            font-weight: normal;
+            font-family: "IBM Plex Sans", sans-serif;
+        }
+}
+
+.last-news {
+
+    height: 440px;
+    h2 {
+        margin-top: 7.9%;
+    }
+    button {
+        width: 320px;
+        align-self: center;
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 6.9%;
+        margin-right: 6.9%;
+
+        .footer-fab{
+        display: flex;
+        flex-direction: row;
+        letter-spacing: 36px;
+        }
+    }
+}

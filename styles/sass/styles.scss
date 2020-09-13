@@ -1,0 +1,53 @@
+@import "./partials/variables", "./partials/nav-bar", "./partials/episodes", "./partials/figures", "./partials/footer", "./partials/last-news", "./partials/phone", "./partials/guest", "./partials/hello", "./partials/media";
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    color: $color-primary;
+    line-height: 42px;
+    font-weight: normal;
+    padding-top: 39px;
+}
+
+h2 {
+    font-size: 36px;
+    color: $color-primary;
+    line-height: 42px;
+    font-weight: normal;
+}
+
+p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: $color-primary;
+    line-height: 22px;
+}
+
+button {
+    background-color: $color-button;
+    color: $color-primary;
+    width: 90%;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: none;
+    margin-left: 5%;
+}
+
+button:hover {
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: #fff;
+}

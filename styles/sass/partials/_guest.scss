@@ -1,0 +1,20 @@
+.guest {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    .invites{
+    img {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 768px;
+        justify-content: center ;
+    }
+    }
+    h2 {
+    padding-left: 5%;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    }
+
+}

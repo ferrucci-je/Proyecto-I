@@ -1,0 +1,28 @@
+.phone {
+    height: 800px;
+    .phone-image {
+    padding-top: 48px;
+    height: 505px;
+    img{
+        position: relative;
+        top: -145px;
+        width: 100%;
+        max-width: 345px;
+        display: flex;
+        margin: 0 auto;
+}
+}
+.phone-text{
+    position: absolute;
+    z-index: 20;
+    top: 2060px;
+    margin-right: 5%; 
+    h2 {
+        padding-left: 5%;
+        padding-bottom: 8px;
+    }
+    p{
+        padding-left: 5%;
+        }
+        }
+}

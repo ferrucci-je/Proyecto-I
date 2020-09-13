@@ -1,0 +1,23 @@
+.hello{
+
+    h1 {
+        padding-left: 5%;
+}
+    h1::after {
+        content: ".";
+}
+    p {
+    padding-left: 5%;
+    padding-top: 16px;
+    padding-bottom: 36px;
+}
+    p::after {
+        content: "Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.";
+}
+    
+}
+
+
+
+
+

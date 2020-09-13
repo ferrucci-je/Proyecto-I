@@ -1,0 +1,26 @@
+footer { 
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    p {
+    display: block;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.footer-fab{
+    display: flex;
+    font-family: 'Font Awesome 5 Brands-Regular';
+    justify-content: space-evenly;
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom: 31px;
+    padding-top: 16px;
+    a {
+        color: $color-primary;
+    }
+    a:visited {
+        color: $color-primary;
+    }
+}
+}
