@@ -64,7 +64,7 @@
   display: none;
 }
 
-.episodes {
+#episodes {
   position: relative;
   margin-top: 20px;
   display: -webkit-box;
@@ -77,7 +77,7 @@
   background-image: linear-gradient(60deg, #0000FF 0%, #0000A3 100%);
 }
 
-.episodes iframe {
+#episodes iframe {
   padding-left: 9px;
   padding-right: 9px;
   margin-bottom: 11px;
@@ -86,25 +86,25 @@
   border: none;
 }
 
-.episodes .episode-backgound-top {
+#episodes .episode-backgound-top {
   top: 0;
   width: 100%;
   height: 10vw;
   position: absolute;
 }
 
-.episodes .episode-backgound-bottom {
+#episodes .episode-backgound-bottom {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 10vw;
 }
 
-.episodes .iframes:last-child {
+#episodes .iframes:last-child {
   margin-bottom: 143.5px;
 }
 
-.episodes h2 {
+#episodes h2 {
   font-family: 'IBM Plex Sans';
   font-size: 36px;
   color: #fff;
@@ -114,20 +114,20 @@
   padding-bottom: 21px;
 }
 
-.figures {
+#figures {
   margin: 0 auto;
 }
 
-.figures h2 {
+#figures h2 {
   padding-left: 5%;
   padding-top: 48px;
 }
 
-.figures .figures-img figure:first-child {
+#figures .figures-img figure:first-child {
   padding-top: 36px;
 }
 
-.figures .figures-img figure {
+#figures .figures-img figure {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -137,11 +137,11 @@
           flex-direction: column;
 }
 
-.figures .figures-img figure img {
+#figures .figures-img figure img {
   margin: 0 auto;
 }
 
-.figures .figures-img figure figcaption {
+#figures .figures-img figure figcaption {
   font-family: 'IBM Plex Sans SemiBold', sans-serif;
   font-size: 24px;
   font-weight: 600;
@@ -223,16 +223,16 @@ footer .footer-fab a:visited {
   width: auto;
 }
 
-.phone {
+#phone {
   height: 800px;
 }
 
-.phone .phone-image {
+#phone .phone-image {
   padding-top: 48px;
   height: 505px;
 }
 
-.phone .phone-image img {
+#phone .phone-image img {
   position: relative;
   top: -145px;
   width: 100%;
@@ -243,23 +243,23 @@ footer .footer-fab a:visited {
   margin: 0 auto;
 }
 
-.phone .phone-text {
+#phone .phone-text {
   position: absolute;
   z-index: 20;
   top: 2060px;
   margin-right: 5%;
 }
 
-.phone .phone-text h2 {
+#phone .phone-text h2 {
   padding-left: 5%;
   padding-bottom: 8px;
 }
 
-.phone .phone-text p {
+#phone .phone-text p {
   padding-left: 5%;
 }
 
-.guest {
+#guest {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -270,7 +270,7 @@ footer .footer-fab a:visited {
   padding: 0px;
 }
 
-.guest .invites img {
+#guest .invites img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -285,7 +285,7 @@ footer .footer-fab a:visited {
           justify-content: center;
 }
 
-.guest h2 {
+#guest h2 {
   padding-left: 5%;
   padding-bottom: 14px;
   padding-top: 14px;
@@ -310,13 +310,13 @@ footer .footer-fab a:visited {
 }
 
 @media only screen and (min-width: 570px) {
-  .guest .invites {
+  #guest .invites {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
-  .guest img {
+  #guest img {
     height: 364.5px;
     width: 100%;
   }
@@ -334,7 +334,7 @@ footer .footer-fab a:visited {
             flex-direction: column;
     margin: 11px 0 auto;
   }
-  .phone {
+  #phone {
     height: 700px;
   }
   .last-news {
@@ -442,15 +442,15 @@ footer .footer-fab a:visited {
     width: 15.7%;
   }
   /* Comienza Sección Episodes */
-  .episodes {
+  #episodes {
     width: 100%;
   }
-  .episodes h2 {
+  #episodes h2 {
     display: block;
     margin-top: 4.9%;
     margin-left: 13.9%;
   }
-  .episodes .iframes-div {
+  #episodes .iframes-div {
     margin-left: 100px;
     margin-right: 100px;
     display: -ms-grid;
@@ -461,7 +461,7 @@ footer .footer-fab a:visited {
             column-gap: 5%;
   }
   /*Comienza la Sección Phone*/
-  .phone {
+  #phone {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -475,27 +475,27 @@ footer .footer-fab a:visited {
     margin: 0 auto;
     height: 505px;
   }
-  .phone .phone-text {
+  #phone .phone-text {
     position: static;
     width: 32.2%;
     margin-left: 4.3%;
   }
-  .phone .phone-text h2 {
+  #phone .phone-text h2 {
     padding-bottom: 28px;
   }
   /*Comienza la Sección Guest*/
-  .guest h2 {
+  #guest h2 {
     margin-left: 13.9%;
     padding-left: 0%;
     padding-bottom: 36px;
   }
-  .guest .invites {
+  #guest .invites {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
-  .guest img {
+  #guest img {
     width: 100%;
   }
   /* Comienza la Sección Last-News */
@@ -535,10 +535,10 @@ footer .footer-fab a:visited {
 
 /* Comienza Media Query 1024px */
 @media only screen and (min-width: 1024px) {
-  .figures h2 {
+  #figures h2 {
     padding-left: 13.9%;
   }
-  .figures .figures-img {
+  #figures .figures-img {
     padding-top: 37px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -552,16 +552,16 @@ footer .footer-fab a:visited {
             justify-content: center;
     margin: 0 auto;
   }
-  .figures .figures-img figure:first-child {
+  #figures .figures-img figure:first-child {
     padding-top: 0px;
   }
-  .figures .figures-img figure {
+  #figures .figures-img figure {
     margin-top: 2.5%;
   }
-  .figures .figures-img figcaption {
+  #figures .figures-img figcaption {
     text-align: justify;
   }
-  .episodes iframe {
+  #episodes iframe {
     margin-bottom: 72px;
   }
   .hello h1 {
