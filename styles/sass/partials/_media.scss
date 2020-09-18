@@ -1,5 +1,5 @@
 @media only screen and (min-width: 570px) {
-.guest {     
+#guest {     
     .invites{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -19,7 +19,7 @@ iframe {
     margin: 11px 0 auto;
 }
 
-.phone {
+#phone {
     height: 700px;
 }
 
@@ -132,7 +132,7 @@ iframe {
 
 /* Comienza Sección Episodes */
 
-.episodes {
+#episodes {
     width: 100%;
     h2 {
         display: block;
@@ -152,7 +152,7 @@ iframe {
 
 /*Comienza la Sección Phone*/
 
-.phone {
+#phone {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -172,8 +172,7 @@ iframe {
 }
 
 /*Comienza la Sección Guest*/
-
-.guest {
+#guest {
     h2{
         margin-left: 13.9%;
         padding-left: 0%;
@@ -217,7 +216,7 @@ iframe {
 
 @media only screen and (min-width: 1024px) {
 
-.figures {
+#figures {
     h2 {
         padding-left: 13.9%;
     }
@@ -243,7 +242,7 @@ iframe {
 }
 }
 
-.episodes iframe {
+#episodes iframe {
     margin-bottom: 72px;
 }
 
